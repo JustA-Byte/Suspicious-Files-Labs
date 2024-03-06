@@ -16,11 +16,13 @@ The timeline leading up to this alert is as follows:
 1:20 p.m.: An intrusion detection system detects the executable files and sends out an alert to the SOC.
 
 ### Virus Total Results
-Searching Virus Total, the community score of the file is shown as 57/71 as can be seen by the image below. This shows that 57 security cendors and 3 sandboxes flagged the file as malisious. 
+Searching Virus Total, this file has been identified as malicious, as shown by 57/71 security vendors (see image below). Many mark the file with the following tags: Trojan, backdoor, malicious and unsafe. The community score for the file shows -86.
+
+Reports highlight that the file contacts the following URL: http://org.misecure.com/index.html. As shown, the URL is unsecure using HTTP instead of HTTPS which would indicate unsafe practice and potential malicious intent.
 
 ![image](https://github.com/JustA-Byte/Suspicious-Files-Labs/assets/161458321/c76ad1b2-427b-4f2f-bce9-48e82ed41e33)
 
-Looking into the details tab of the results shows information around network connections, relations, behaviour of the malware and TTPs.
+Looking into the details tab of the results shows information around network connections, relations, behaviour of the malware and TTPs. Many mark the file with the following tags: Trojan, backdoor, malicious and unsafe. The community score for the file shows -86.
 
 ### Addressing this incident using the 5 W's
 
@@ -32,3 +34,7 @@ Looking into the details tab of the results shows information around network con
 
 ### Summary
 This seems like the initial stages of infection that could lead to more severe outcomes like customer data exfiltration. The malware included data input monitoring, defensive evasion techniques and direction to malicious URLs. Poorly configured IDS may not have picked this malware up which could definitely have caused harm to customer and company data.
+
+The following pyarmid of pain shows more information around the file:
+![image](https://github.com/JustA-Byte/Suspicious-Files-Labs/assets/161458321/a8b37045-659f-4a1b-8aa2-24854d6cec11)
+
