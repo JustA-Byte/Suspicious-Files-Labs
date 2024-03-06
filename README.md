@@ -1,7 +1,7 @@
 # Suspicious-Files-Labs
 
 ## Objective
-In this fake scenario, I've received an alert about a suspicious file being downloaded on an employee's computer. After investigating the alert I've discover that the employee received an email containing an attachment. The attachment was a password-protected spreadsheet file. The spreadsheet's password was provided in the email. The employee downloaded the file, then entered the password to open the file. When the employee opened the file, a malicious payload was then executed on their computer. 
+In this scenario, I've received an alert about a suspicious file being downloaded on an employee's computer. After investigating the alert I've discover that the employee received an email containing an attachment. The attachment was a password-protected spreadsheet file. The spreadsheet's password was provided in the email. The employee downloaded the file, then entered the password to open the file. When the employee opened the file, a malicious payload was then executed on their computer. 
 
 ## Investigation
 I have retreived the malicious file and have created a SHA 256 hash of the file. The hash output is: 54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b
