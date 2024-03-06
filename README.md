@@ -23,12 +23,12 @@ Searching Virus Total, the community score of the file is shown as 57/71 as can 
 Looking into the details tab of the results shows information around network connections, relations, behaviour of the malware and TTPs.
 
 ### Addressing this incident using the 5 W's
-Capture the 5 W's of an incident.
-Who - Malicious actors wishing to infect host systems within the business
-What - A phishing email was sent to an employee which had a password protected attachment containing malware. Once the file was accessed using the password, the malware activated and further executable files were created on the host system.
-When - between 1:11pm-1:20pm
-Where - an employee’s computer at a financial services company
-Why - malicious actors wanting access to the system to steal input information. 
+
+- <b>Who</b>; Malicious actors wishing to infect host systems within the business
+- <b>What</b>; A phishing email was sent to an employee which had a password protected attachment containing malware. Once the file was accessed using the password, the malware activated and further executable files were created on the host system.
+- <b>When</b>; between 1:11pm-1:20pm
+- <b>Where</b>; an employee’s computer at a financial services company
+- <b>Why</b>: malicious actors wanting access to the system to steal input information. 
 
 ### Summary
 This seems like the initial stages of infection that could lead to more severe outcomes like customer data exfiltration. The malware included data input monitoring, defensive evasion techniques and direction to malicious URLs. Poorly configured IDS may not have picked this malware up which could definitely have caused harm to customer and company data.
